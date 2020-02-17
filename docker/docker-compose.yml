@@ -1,0 +1,7 @@
+version: '3.1'
+services:
+  react-nginx: 
+    image: react-nginx:latest
+    container_name: react-nginx
+    ports:
+      - 8080:80
